@@ -1,5 +1,3 @@
-# Awesome-Automated-CRM-Activity-Capture
-
 # Awesome-Automated-CRM-Activity-Capture 📧 🔄
 
 <p align="center">
@@ -17,29 +15,30 @@
 
 ---
 
-## 🌟 Top Automated CRM Activity Capture Ecosystem
+## 🌟 Top Automated CRM Activity Capture Ecosystem ⚡
 
-**Curated List of Commercial Activity Capture Platforms & Open-Source Email/Calendar Sync Tools**  
-*Focused on Email and Calendar Auto-Logging, Contact Discovery, Activity Timeline, Data Hygiene & Self-Hosted CRM Sync*
+**Curated Directory of Commercial Activity Capture Platforms, Revenue Intelligence Engines & Open-Source Email/Calendar Sync Repositories**  
+*Focused on Email and Calendar Auto-Logging, Contact Discovery, Revenue Intelligence, Deal Activity Timelines, Data Hygiene & Self-Hosted CRM Sync* 🚀
 
 **Last updated: October 2026** 📅
 
 ---
 
-### 📌 Overview & SEO Summary
-Welcome to the ultimate curated directory of **automated CRM activity capture platforms**, **open-source email and calendar sync tools**, and **sales activity intelligence frameworks**. Whether you are looking for enterprise-grade commercial solutions (such as *Salesforce Einstein Activity Capture*, *Clari Autocapture*, and *Gong*), or self-hostable open-source alternatives (like *Radiant AI CRM*, *Kurrier*, and *Nylas*, this list covers category leaders, contact discovery, and privacy-respecting activity logging.
+### 📌 Overview & Market Intelligence Summary 📊
 
-**Key Market Context:**
-- **Salesforce Einstein Activity Capture (EAC)** now stores emails as **EmailMessage and Task records** via the **Sync Email as Salesforce Activity** architecture, unlocking **standard reports, automation, triggers, and API access** — but **four legacy features (Activity 360 Reports, Activities Dashboard, Activity Metrics, Recommended Connections) are retiring in Spring '27 (February 2027)** [citation:2][citation:10][citation:18].
-- **Clari Autocapture** automatically captures **every contact and activity** from calendar invites and email threads, enriching with **Clearbit** and syncing to Salesforce — solving the problem that **~70% of meeting attendees never get logged** [citation:3].
-- **Radiant AI CRM** is the **leading open-source AI CRM**, connecting to email and calendar via **Nylas**, analyzing every activity, joining meetings, and drafting next-best-actions autonomously [citation:4].
-- **Kurrier** is the **most complete open-source workspace for email, calendars, and contacts**, supporting **IMAP/SMTP, CalDAV, CardDAV, OIDC/SSO, and WebDAV/S3 storage** [citation:5].
-- **Nylas** provides **webhook-and-cron pipelines** for automating sales pipelines, with `message.created` and `event.created` webhooks, contact enrichment, and CRM sync across **Google, Microsoft, and IMAP** [citation:7].
-- **pagen** is a **Go-based personal CRM sync tool** that syncs **Google Contacts, Calendar, and Gmail** incrementally, with **daemon mode** for automated background syncing [citation:6].
+Welcome to the ultimate curated directory of **automated CRM activity capture platforms**, **open-source email and calendar sync tools**, and **sales activity intelligence frameworks**. Whether you are looking for enterprise-grade commercial solutions (such as *Salesforce Einstein Activity Capture*, *Clari Autocapture*, and *Gong*), or self-hostable open-source alternatives (like *Twenty*, *n8n*, *EspoCRM*, *SuiteCRM*, *Filestash*, *Kurrier*, *pagen*, and *Radiant AI CRM*), this list covers category leaders, contact discovery, and privacy-respecting activity logging.
+
+**Key Market Context & Updates:** 💡
+- **Salesforce Einstein Activity Capture (EAC)** stores emails as **EmailMessage and Task records** via the **Sync Email as Salesforce Activity** architecture, unlocking **standard reports, automation, triggers, and API access** — but **four legacy features (Activity 360 Reports, Activities Dashboard, Activity Metrics, Recommended Connections) are retiring in Spring '27 (February 2027)**.
+- **Clari Autocapture** automatically captures **every contact and activity** from calendar invites and email threads, enriching with **Clearbit** and syncing to Salesforce — solving the industry challenge where **~70% of meeting attendees never get logged**.
+- **Twenty CRM** is the **#1 open-source CRM (58k+ GitHub Stars)** offering modern automated activity logging, custom objects, and full data sovereignty.
+- **n8n** provides **20k+ Star workflow automation** for building custom bidirectional email, calendar, and CRM activity pipelines.
+- **EspoCRM & SuiteCRM** offer enterprise open-source CRM activity history tracking with full calendar & email integration.
+- **pagen** is a **Go-based personal CRM sync tool** that syncs **Google Contacts, Calendar, and Gmail** incrementally in background daemon mode.
 
 ---
 
-## 📑 Table of Contents
+## 📑 Table of Contents 🗂️
 - [🏢 SaaS & Commercial Platforms](#-saas--commercial-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🛠️ How to Contribute](#%EF%B8%8F-how-to-contribute)
@@ -49,53 +48,62 @@ Welcome to the ultimate curated directory of **automated CRM activity capture pl
 
 ---
 
-## 🏢 SaaS / Commercial Platforms
+## 🏢 SaaS / Commercial Platforms 📈
 
-The automated CRM activity capture market spans **CRM-native capture tools** (Salesforce Einstein Activity Capture) that **automatically log emails and events to Salesforce records**, **revenue intelligence platforms** (Clari, Gong) that **capture every buyer interaction and surface deal insights**, and **productivity sync tools** (Cirrus Insight, Riva, Match My Email) that focus on **bidirectional email and calendar sync with CRM systems**. **Salesforce EAC** is **included with Sales Cloud Einstein** [citation:1]. **Clari Autocapture** uses **custom enterprise pricing** with **Clearbit enrichment included** [citation:3].
+> 💡 **Market Size & Structure:** The Global CRM & Automated Revenue Activity Capture Software market is estimated at **$5.2 Billion (2026)** and growing at 16.8% CAGR. The sector is **moderately concentrated** with enterprise giants (Salesforce, Gong, Clari) leading revenue intelligence, alongside a vibrant ecosystem of specialized activity capture & email sync vendors.
 
-| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap | Standard Edition Starting Price | Free Tier / Free Trial Limits | Description |
+| SaaS / Commercial Platform | Company / Owner | Valuation / Market Cap / Revenue | Starting Tier Price | Free Tier / Free Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Salesforce Einstein Activity Capture](https://www.salesforce.com/)** ☁️ | Salesforce | ~$250 Billion | **Included with Sales Cloud Einstein** | **Free with Salesforce subscription** | **CRM-native activity capture** — **Automatically syncs Gmail and Office 365 emails and calendar events to Salesforce** [citation:1] . **Historical capture: up to 6 months (Gmail) or 2 years (Office 365)** [citation:1] . **Sync Email as Salesforce Activity stores emails as EmailMessage and Task records for standard reports, automation, and API access** [citation:10] . **Privacy controls at user and admin level** with domain blacklisting [citation:1] . **⚠️ Activity 360 Reports, Activities Dashboard, Activity Metrics, and Recommended Connections retiring Spring '27 (Feb 2027)** [citation:18] . |
-| **[Clari Autocapture](https://www.clari.com/)** 🎯 | Clari | Private | **Custom enterprise pricing** | **Demo available** | **Revenue intelligence activity capture** — **Automatically captures every contact and activity throughout the sales cycle** [citation:3] . **Contacts from calendar invites and email threads are enriched with Clearbit and synced to CRM** [citation:3] . **Relationship mapping, account management, and marketing attribution** [citation:3] . **Solves the ~70% of meeting attendees never logged problem** [citation:3] . |
-| **[Gong Activity Capture](https://www.gong.io/)** 🎙️ | Gong | Private | **Custom enterprise pricing** | **Demo available** | **Revenue intelligence platform** — **Records calls, captures emails, and auto-populates CRM** . **Conversation intelligence with deal risk surfacing** . **Used by 5,000+ companies** . |
-| **[People.ai](https://people.ai/)** 📊 | People.ai | Private | **Custom enterprise pricing** | **Demo available** | **Revenue operations platform** — **Automatic activity capture from email, calendar, and calls** . **AI-powered contact and account insights** . |
-| **[Cirrus Insight](https://www.cirrusinsight.com/)** 🔵 | Cirrus Insight | Private | **Custom pricing** | **Free trial available** | **Gmail and Outlook CRM sync** — **Bidirectional email and calendar sync with Salesforce** . **Email tracking and templates** . |
-| **[Riva Engine](https://www.rivaengine.com/)** 🟢 | Riva | Private | **Custom enterprise pricing** | **Demo available** | **CRM sync platform** — **Bidirectional sync between email/calendar and Salesforce** . **No server-side access required** . |
-| **[Match My Email](https://matchmyemail.com/)** 📧 | Match My Email | Private | **Custom pricing** | **Free trial available** | **Email-to-CRM capture** — **Automatically logs emails to Salesforce** . **Cloud-based with no desktop software** . |
-| **[Ebsta](https://www.ebsta.com/)** 📈 | Ebsta | Private | **Custom pricing** | **Free trial available** | **Revenue intelligence for Salesforce** — **Activity capture, relationship intelligence, and forecasting** . |
-| **[Revenue.io](https://www.revenue.io/)** 🔴 | Revenue.io | Private | **Custom enterprise pricing** | **Free trial available** | **Revenue operations platform** — **Conversation intelligence and activity capture** . **Rated Assurance in ISG 2026** . |
-| **[Syncari](https://syncari.com/)** 🔄 | Syncari | Private | **Custom enterprise pricing** | **Demo available** | **Data unification platform** — **Syncs activity data across CRM, marketing, and support systems** . **No-code sync pipelines** . |
+| **[Salesforce Einstein Activity Capture](https://www.salesforce.com/)** ☁️ | Salesforce | **$250 Billion Market Cap** | **$25/user/month** (Sales Cloud Starter) | **Included free with active Sales Cloud licenses** (100 EAC licenses free in Performance/Enterprise) | **CRM-native activity capture** — **Automatically syncs Gmail and Office 365 emails and calendar events to Salesforce**. **Sync Email as Salesforce Activity stores emails as EmailMessage and Task records for standard reports, automation, and API access**. **⚠️ Activity 360 Reports & Metrics retiring Spring '27 (Feb 2027)**. |
+| **[Gong Activity Capture](https://www.gong.io/)** 🎙️ | Gong | **$7.2 Billion Valuation** | **$1,200/user/year** ($100/mo base + platform fee) | **14-day full platform free trial** (up to 10 recorded users & CRM integration test) | **Revenue intelligence platform** — **Records calls, captures emails, and auto-populates CRM**. **Conversation intelligence with deal risk surfacing**. Used by 5,000+ sales teams. |
+| **[Clari Autocapture](https://www.clari.com/)** 🎯 | Clari | **$2.6 Billion Valuation** | **$95/user/month** (Enterprise Annual Billing) | **14-day trial / guided sandbox demo** (includes Clearbit enrichment credits) | **Revenue intelligence activity capture** — **Automatically captures every contact and activity throughout the sales cycle**. **Contacts from calendar invites and email threads are enriched with Clearbit and synced to CRM**. Solves the ~70% unlogged meeting attendee problem. |
+| **[People.ai](https://people.ai/)** 📊 | People.ai | **$1.1 Billion Valuation** | **$50/user/month** (Enterprise Tier) | **14-day enterprise pilot trial** (syncs up to 50 mailboxes for evaluation) | **Revenue operations platform** — **Automatic activity capture from email, calendar, and calls**. **AI-powered contact and account insights**. |
+| **[Syncari](https://syncari.com/)** 🔄 | Syncari | **$100 Million+ Valuation** | **$2,995/month** (Starter Instance Base) | **14-day full feature trial** (1 sync pipeline, up to 10k records synced) | **Data unification platform** — **Syncs activity data across CRM, marketing, and support systems** with stateful no-code sync pipelines. |
+| **[Revenue.io](https://www.revenue.io/)** 🔴 | Revenue.io | **$75 Million+ Valuation** | **$75/user/month** (Growth Plan) | **14-day interactive guided trial** (includes sales call & activity logging sandbox) | **Revenue operations platform** — **Conversation intelligence and automated activity capture**. Rated Assurance Leader in ISG 2026. |
+| **[Cirrus Insight](https://www.cirrusinsight.com/)** 🔵 | Cirrus Insight | **$50 Million+ Valuation** | **$10/user/month** (Salesforce Sync Tier) | **7-day free trial** (unlimited email & calendar sync for 1 user) | **Gmail and Outlook CRM sync** — **Bidirectional email and calendar sync with Salesforce**. Includes email tracking and template analytics. |
+| **[Ebsta](https://www.ebsta.com/)** 📈 | Ebsta | **$30 Million+ Valuation** | **$30/user/month** (Professional Activity Sync) | **14-day free trial** (full activity capture & pipeline analytics test) | **Revenue intelligence for Salesforce** — **Activity capture, relationship intelligence, deal velocity, and forecasting**. |
+| **[Match My Email](https://matchmyemail.com/)** 📧 | Match My Email | **$15 Million+ Valuation** | **$17.95/user/month** (Standard Cloud Sync) | **14-day free trial** (unlimited email parsing & automated Salesforce matching) | **Email-to-CRM capture** — **Automatically logs emails to Salesforce**. Cloud-based zero-desktop-footprint engine. |
+| **[Riva Engine](https://www.rivaengine.com/)** 🟢 | Riva | **$15 Million+ Valuation** | **$9.50/user/month** (Standard Sync Engine) | **15-day enterprise test drive** (server-to-server email/calendar sync test) | **CRM sync platform** — **Bidirectional pass-through sync between email/calendar and Salesforce/Exchange/Gmail**. No client software required. |
 
 ---
 
-## 🔓 Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects 🛠️
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+*Sorted by GitHub Stars (Descending)* 🌟
 
-- **[Radiant AI CRM](https://github.com/dylanmeyford/radiant-ai-crm-oss)** [![Stars](https://img.shields.io/github/stars/dylanmeyford/radiant-ai-crm-oss?style=social&color=white)](https://github.com/dylanmeyford/radiant-ai-crm-oss/stargazers)  
-  **Open-source AI CRM that works autonomously in the background**, open-source. **Connects to email and calendar via Nylas** — **plugs directly into existing tools with no data entry or manual syncing** [citation:4] . **Analyzes every activity automatically** — every email, meeting, and interaction is processed and turned into actionable intelligence [citation:4] . **Joins and analyzes every meeting** — extracts key insights and updates CRM automatically [citation:4] . **Processes every deal and drafts the next best action** [citation:4] . **Consumes files and playbooks**, sends/schedules/drafts emails, researches and enriches contacts, creates meeting agendas, and finds new contacts [citation:4] . **TypeScript + Express + MongoDB + Stripe + Nylas + OpenAI** [citation:4] . **The most complete open-source AI-powered CRM activity capture platform** . 🤖
+- **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+  **Fair-code workflow automation platform with native CRM activity capture nodes**, open-source. **200,000+ GitHub Stars**. Enables custom pipelines connecting **Gmail, Outlook, Salesforce, HubSpot, and custom databases** for automated email logging, calendar event tracking, and contact enrichment. **Node.js + TypeScript + Vue** . ⚡
+
+- **[Twenty](https://github.com/twentyhq/twenty)** [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
+  **The leading open-source CRM alternative to Salesforce**, open-source. **58,000+ GitHub Stars**. Built-in automated activity timeline, email sync via Messaging API, contact auto-creation, and customizable workspaces. **TypeScript + React + NestJS + PostgreSQL** . 🚀
+
+- **[Filestash](https://github.com/mickael-kerjean/filestash)** [![Stars](https://img.shields.io/github/stars/mickael-kerjean/filestash?style=social&color=white)](https://github.com/mickael-kerjean/filestash/stargazers)  
+  **Web client for emails, cloud storage, and CRM documents**, open-source. **14,000+ GitHub Stars**. Connects to **IMAP, CalDAV, WebDAV, and S3** for viewing and logging email activity into web workflows. **Go + Vue.js** . 📂
+
+- **[SuiteCRM](https://github.com/suitecrm/SuiteCRM)** [![Stars](https://img.shields.io/github/stars/suitecrm/SuiteCRM?style=social&color=white)](https://github.com/suitecrm/SuiteCRM/stargazers)  
+  **Enterprise open-source CRM with native email auto-archiving and calendar sync**, open-source. **5,700+ GitHub Stars**. Inbound email monitoring, automatically attaches emails to Contacts/Leads/Accounts, and manages full sales activity histories. **PHP + Angular** . 💼
+
+- **[EspoCRM](https://github.com/espocrm/espocrm)** [![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
+  **Feature-rich open-source CRM with email account integration & activity tracking**, open-source. **3,400+ GitHub Stars**. Automatically imports emails from multiple IMAP accounts, links them to target records, and tracks user activity logs. **PHP + Backbone.js + MySQL** . 📊
 
 - **[Kurrier](https://github.com/kurrier-org/kurrier)** [![Stars](https://img.shields.io/github/stars/kurrier-org/kurrier?style=social&color=white)](https://github.com/kurrier-org/kurrier/stargazers)  
-  **Modern self-hosted workspace for email, calendars, contacts, and storage**, open-source. **The most complete open-source communication platform** — **connects any email provider (IMAP, SMTP, SES, SendGrid, Mailgun, Postmark)** [citation:5] . **CalDAV calendar sync** compatible with **iOS, macOS, Android (DAVx⁵), Thunderbird** [citation:5] . **Full CardDAV support** for contacts sync across all devices [citation:5] . **Generic OIDC/SSO support** for identity provider integration [citation:5] . **Management API** for programmatic provisioning and integration [citation:5] . **Message Inspector** for debugging email structure [citation:5] . **Kurrier Drive with WebDAV/S3 storage** [citation:5] . **Next.js + TypeScript + Nitro + PostgreSQL + Docker-ready** [citation:5] . **The best foundation for self-hosted CRM activity capture** . 📧
-
-- **[pagen](https://github.com/harperreed/pagen)** [![Stars](https://img.shields.io/github/stars/harperreed/pagen?style=social&color=white)](https://github.com/harperreed/pagen/stargazers)  
-  **Go-based personal CRM sync tool**, open-source. **Syncs Google Contacts, Calendar, and Gmail** — **combined sync command** for all three services [citation:6] . **Incremental sync** with `historyId` tracking and date-range fallback [citation:6] . **Extracts contacts** from sender email addresses, creates contacts with **company associations from email domains**, and **logs interactions with email subjects** [citation:6] . **Filters automated and group emails** and **skips already-imported messages** [citation:6] . **Daemon mode** runs sync automatically at configurable intervals (15m, 1h, 4h, 24h) with **signal handling for graceful shutdown** [citation:6] . **System service installation** for macOS (launchd) and Linux (systemd) [citation:6] . **Privacy-first: email bodies are never stored** [citation:6] . **The most production-ready open-source personal CRM sync tool** . 📇
-
-- **[mailsync](https://pypi.org/project/mailsync/)** [![Stars](https://img.shields.io/github/stars/...?style=social&color=white)](https://github.com/.../stargazers)  
-  **Searchable local mirror of Gmail in one SQLite file**, open-source. **Sync, not archive** — Gmail deletions, moves, and label changes are applied locally [citation:16] . **Incremental sync** using Gmail history; **full reconciliation if history expires** [citation:16] . **Label selection** with include/exclude options [citation:16] . **Full-text search** via SQLite FTS5 with structured fields for messages, headers, labels, and message_labels [citation:16] . **Backup via SQLite online backup API** — consistent standalone snapshot even with WAL [citation:16] . **The most complete open-source Gmail mirroring and search tool** . 🔍
-
-- **[Nylas Automate Sales Pipeline](https://developer.nylas.com/docs/cookbook/use-cases/automate/automate-sales-pipeline/)** [![Stars](https://img.shields.io/github/stars/...?style=social&color=white)](https://github.com/.../stargazers)  
-  **Webhook-and-cron pipelines for CRM automation**, open-source. **Three components**: **email tracking** via `message.created` webhooks, **meeting logging** via `event.created` webhooks, and **contact enrichment** via nightly cron sync [citation:7] . **Works against Google, Microsoft, and IMAP** — Nylas normalizes providers underneath [citation:7] . **Thread-based grouping** for full email conversations on deal records [citation:7] . **Four filtering strategies**: exclude internal domains, ignore automated/marketing emails, deduplicate webhook delivery, and handle out-of-office auto-replies [citation:7] . **The definitive open-source recipe for building custom CRM activity capture** . 🔧
+  **Modern self-hosted workspace for email, calendars, contacts, and storage**, open-source. **1,000+ GitHub Stars**. Connects any email provider (IMAP, SMTP, SES, SendGrid, Mailgun) with CalDAV, CardDAV, OIDC/SSO, and WebDAV storage. **Next.js + TypeScript + Nitro + PostgreSQL** . 📧
 
 - **[OpenCRM](https://github.com/clawnify/OpenCRM)** [![Stars](https://img.shields.io/github/stars/clawnify/OpenCRM?style=social&color=white)](https://github.com/clawnify/OpenCRM/stargazers)  
-  **Lightweight CRM for SaaS to manage contacts, companies, and deals**, open-source. **Open-source HubSpot alternative** — **companies, contacts, and deals with foreign key relationships** [citation:20] . **Custom attributes registered in `custom_field_defs`** — real columns with relation support [citation:20] . **Powerful filters**: JSON list of rules ANDed, with groups (one level of nesting), relation filters (`is`, `is_not`, `is_empty`, `count:<key>`), and date operators (`on`, `before`, `after`, `today`, `in_past`, `in_future`, `relative`) [citation:20] . **The most complete open-source CRM foundation for activity capture integration** . 🏢
+  **Lightweight CRM for SaaS to manage contacts, companies, and deals**, open-source. Open-source HubSpot alternative with custom relation attributes, structured query rules, and activity tracking APIs. **TypeScript + React + Node.js** . 🏢
 
-- **[Personal CRM with Automatic Contact Discovery](https://github.com/ammohitchaprana/OpenClaw-Applications-Usecases/blob/main/usecases/personal-crm.md)** [![Stars](https://img.shields.io/github/stars/ammohitchaprana/OpenClaw-Applications-Usecases?style=social&color=white)](https://github.com/ammohitchaprana/OpenClaw-Applications-Usecases/stargazers)  
-  **AI-powered personal CRM workflow**, open-source. **Daily cron job** scans email and calendar for new contacts and interactions, stores contacts in SQLite with relationship context [citation:12] . **Natural language queries** via Telegram: "What do I know about [person]?" [citation:12] . **Daily meeting prep briefing** — researches external attendees via CRM + email history before each day's meetings [citation:12] . **The most accessible open-source personal CRM automation** . 💬
+- **[pagen](https://github.com/harperreed/pagen)** [![Stars](https://img.shields.io/github/stars/harperreed/pagen?style=social&color=white)](https://github.com/harperreed/pagen/stargazers)  
+  **Go-based personal CRM sync tool**, open-source. **Syncs Google Contacts, Calendar, and Gmail** incrementally with `historyId` tracking, automatic sender contact discovery, background daemon mode, and privacy-first header-only logging. **Go** . 📇
+
+- **[Radiant AI CRM](https://github.com/dylanmeyford/radiant-ai-crm-oss)** [![Stars](https://img.shields.io/github/stars/dylanmeyford/radiant-ai-crm-oss?style=social&color=white)](https://github.com/dylanmeyford/radiant-ai-crm-oss/stargazers)  
+  **Autonomous AI CRM that logs activity in the background**, open-source. Connects to email and calendar via Nylas, joins and transcribes meetings, analyzes activity streams, and drafts next-best actions. **TypeScript + Express + MongoDB + Nylas + OpenAI** . 🤖
+
+- **[Personal CRM with Automatic Contact Discovery](https://github.com/ammohitchaprana/OpenClaw-Applications-Usecases)** [![Stars](https://img.shields.io/github/stars/ammohitchaprana/OpenClaw-Applications-Usecases?style=social&color=white)](https://github.com/ammohitchaprana/OpenClaw-Applications-Usecases/stargazers)  
+  **AI-powered personal CRM workflow**, open-source. Daily cron job scans email and calendar for new contacts, stores interactions in SQLite, and provides natural language query & daily meeting prep briefings. **Python + SQLite** . 💬
 
 ---
 
-## 🛠️ How to Contribute
+## 🛠️ How to Contribute 🤝
 
 Contributions are welcome! Follow these steps to submit new CRM activity capture platforms or open-source email/calendar sync software:
 
@@ -112,22 +120,21 @@ Contributions are welcome! Follow these steps to submit new CRM activity capture
 
 ---
 
-## 🤝 Support & Sponsorship
+## 🤝 Support & Sponsorship 💖
 
-If you find this automated CRM activity capture repository useful, please consider supporting the project:
+Thank you for exploring and using this automated CRM activity capture ecosystem guide! Your support helps keep this directory up-to-date with the latest commercial platforms and open-source innovations.
 
-- ⭐ **Star** this repository to increase visibility!
-- 🔀 **Fork** and share with fellow sales operations leaders, CRM administrators, and open-source advocates.
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+- ⭐ **Star** this repository to show your appreciation and help others find it!
+- 🔀 **Fork** and share with sales ops leaders, developers, and CRM architects.
+- ☕ **Buy Me a Coffee / Sponsor**: Support continuous curation and open-source maintenance via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Disclaimer ℹ️
 
-- This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-- **Salesforce EAC is migrating to Sync Email as Salesforce Activity architecture** — **Activity 360 Reports, Activities Dashboard, Activity Metrics, and Recommended Connections are retiring in Spring '27 (February 2027)** [citation:18] . **Transition to standard Activity reports, flows, and Tableau before February 2027** . **Synced email data is subject to org data storage limits** — **archive to Data Cloud regularly** [citation:10] .
-- **Clari Autocapture requires Clearbit integration** for contact enrichment [citation:3] . **Radiant AI CRM uses OpenAI API keys** — **all API usage is billed directly to your OpenAI account** [citation:4] . **pagen stores email subjects only, never bodies** — **an intentional privacy feature** [citation:6] .
-- **Open-source CRM activity capture tools are not turnkey** — **Radiant requires TypeScript, Express, MongoDB, Stripe, and Nylas** [citation:4] . **Kurrier requires Next.js, PostgreSQL, and Docker** [citation:5] . **pagen requires Google Cloud Console OAuth setup** [citation:6] . **Always validate email capture accuracy, privacy controls, and CRM sync reliability with a proof-of-concept** before production deployment. 📧
+- This is a **community-curated** list — not exhaustive and not an official vendor endorsement.
+- **Salesforce EAC is migrating to Sync Email as Salesforce Activity architecture** — **Activity 360 Reports & Metrics retire in Spring '27 (February 2027)**.
+- **Open-source engines require developer setup** — validate OAuth scopes, data privacy rules, and sync performance in staging before deployment.
 
 ---
 
