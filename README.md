@@ -31,7 +31,7 @@ Welcome to the ultimate curated directory of **automated CRM activity capture pl
 **Key Market Context & Updates:** 💡
 - **Salesforce Einstein Activity Capture (EAC)** stores emails as **EmailMessage and Task records** via the **Sync Email as Salesforce Activity** architecture, unlocking **standard reports, automation, triggers, and API access** — but **four legacy features (Activity 360 Reports, Activities Dashboard, Activity Metrics, Recommended Connections) are retiring in Spring '27 (February 2027)**.
 - **Clari Autocapture** automatically captures **every contact and activity** from calendar invites and email threads, enriching with **Clearbit** and syncing to Salesforce — solving the industry challenge where **~70% of meeting attendees never get logged**.
-- **Twenty CRM** is the **#1 open-source CRM (58k+ GitHub Stars)** offering modern automated activity logging, custom objects, and full data sovereignty.
+- **Twenty CRM** is the **#1 open-source CRM (58k+ GitHub_Stars)** offering modern automated activity logging, custom objects, and full data sovereignty.
 - **n8n** provides **20k+ Star workflow automation** for building custom bidirectional email, calendar, and CRM activity pipelines.
 - **EspoCRM & SuiteCRM** offer enterprise open-source CRM activity history tracking with full calendar & email integration.
 - **pagen** is a **Go-based personal CRM sync tool** that syncs **Google Contacts, Calendar, and Gmail** incrementally in background daemon mode.
@@ -69,25 +69,25 @@ Welcome to the ultimate curated directory of **automated CRM activity capture pl
 
 ## 🔓 Open-Source GitHub Projects 🛠️
 
-*Sorted by GitHub Stars (Descending)* 🌟
+*Sorted by GitHub_Stars (Descending)* 🌟
 
 - **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
-  **Fair-code workflow automation platform with native CRM activity capture nodes**, open-source. **200,000+ GitHub Stars**. Enables custom pipelines connecting **Gmail, Outlook, Salesforce, HubSpot, and custom databases** for automated email logging, calendar event tracking, and contact enrichment. **Node.js + TypeScript + Vue** . ⚡
+  **Fair-code workflow automation platform with native CRM activity capture nodes**, open-source. **200,000+ GitHub_Stars**. Enables custom pipelines connecting **Gmail, Outlook, Salesforce, HubSpot, and custom databases** for automated email logging, calendar event tracking, and contact enrichment. **Node.js + TypeScript + Vue** . ⚡
 
 - **[Twenty](https://github.com/twentyhq/twenty)** [![Stars](https://img.shields.io/github/stars/twentyhq/twenty?style=social&color=white)](https://github.com/twentyhq/twenty/stargazers)  
-  **The leading open-source CRM alternative to Salesforce**, open-source. **58,000+ GitHub Stars**. Built-in automated activity timeline, email sync via Messaging API, contact auto-creation, and customizable workspaces. **TypeScript + React + NestJS + PostgreSQL** . 🚀
+  **The leading open-source CRM alternative to Salesforce**, open-source. **58,000+ GitHub_Stars**. Built-in automated activity timeline, email sync via Messaging API, contact auto-creation, and customizable workspaces. **TypeScript + React + NestJS + PostgreSQL** . 🚀
 
 - **[Filestash](https://github.com/mickael-kerjean/filestash)** [![Stars](https://img.shields.io/github/stars/mickael-kerjean/filestash?style=social&color=white)](https://github.com/mickael-kerjean/filestash/stargazers)  
-  **Web client for emails, cloud storage, and CRM documents**, open-source. **14,000+ GitHub Stars**. Connects to **IMAP, CalDAV, WebDAV, and S3** for viewing and logging email activity into web workflows. **Go + Vue.js** . 📂
+  **Web client for emails, cloud storage, and CRM documents**, open-source. **14,000+ GitHub_Stars**. Connects to **IMAP, CalDAV, WebDAV, and S3** for viewing and logging email activity into web workflows. **Go + Vue.js** . 📂
 
 - **[SuiteCRM](https://github.com/suitecrm/SuiteCRM)** [![Stars](https://img.shields.io/github/stars/suitecrm/SuiteCRM?style=social&color=white)](https://github.com/suitecrm/SuiteCRM/stargazers)  
-  **Enterprise open-source CRM with native email auto-archiving and calendar sync**, open-source. **5,700+ GitHub Stars**. Inbound email monitoring, automatically attaches emails to Contacts/Leads/Accounts, and manages full sales activity histories. **PHP + Angular** . 💼
+  **Enterprise open-source CRM with native email auto-archiving and calendar sync**, open-source. **5,700+ GitHub_Stars**. Inbound email monitoring, automatically attaches emails to Contacts/Leads/Accounts, and manages full sales activity histories. **PHP + Angular** . 💼
 
 - **[EspoCRM](https://github.com/espocrm/espocrm)** [![Stars](https://img.shields.io/github/stars/espocrm/espocrm?style=social&color=white)](https://github.com/espocrm/espocrm/stargazers)  
-  **Feature-rich open-source CRM with email account integration & activity tracking**, open-source. **3,400+ GitHub Stars**. Automatically imports emails from multiple IMAP accounts, links them to target records, and tracks user activity logs. **PHP + Backbone.js + MySQL** . 📊
+  **Feature-rich open-source CRM with email account integration & activity tracking**, open-source. **3,400+ GitHub_Stars**. Automatically imports emails from multiple IMAP accounts, links them to target records, and tracks user activity logs. **PHP + Backbone.js + MySQL** . 📊
 
 - **[Kurrier](https://github.com/kurrier-org/kurrier)** [![Stars](https://img.shields.io/github/stars/kurrier-org/kurrier?style=social&color=white)](https://github.com/kurrier-org/kurrier/stargazers)  
-  **Modern self-hosted workspace for email, calendars, contacts, and storage**, open-source. **1,000+ GitHub Stars**. Connects any email provider (IMAP, SMTP, SES, SendGrid, Mailgun) with CalDAV, CardDAV, OIDC/SSO, and WebDAV storage. **Next.js + TypeScript + Nitro + PostgreSQL** . 📧
+  **Modern self-hosted workspace for email, calendars, contacts, and storage**, open-source. **1,000+ GitHub_Stars**. Connects any email provider (IMAP, SMTP, SES, SendGrid, Mailgun) with CalDAV, CardDAV, OIDC/SSO, and WebDAV storage. **Next.js + TypeScript + Nitro + PostgreSQL** . 📧
 
 - **[OpenCRM](https://github.com/clawnify/OpenCRM)** [![Stars](https://img.shields.io/github/stars/clawnify/OpenCRM?style=social&color=white)](https://github.com/clawnify/OpenCRM/stargazers)  
   **Lightweight CRM for SaaS to manage contacts, companies, and deals**, open-source. Open-source HubSpot alternative with custom relation attributes, structured query rules, and activity tracking APIs. **TypeScript + React + Node.js** . 🏢
